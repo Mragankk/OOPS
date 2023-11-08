@@ -18,7 +18,7 @@ class students:
 ```
 2. **object** - allows to use real entities of class
 ```bash
-stu = student("mragank",1) #object
+stu= student("mragank",1) #object
 stu.stuc()
 ```
    i. static binding
@@ -42,8 +42,13 @@ stu.stuc()
 - **ENCAPSULATION** : binding of methods in a single unit
 - **ABSTRACTION** : a process of handling complexity by hiding unnecessary informatiion from the user
   - ***private*** : accessibile only withim the class
-  - ***protected*** : accessible within class or child class
+  - ***protected*** : accessible within class or child class                            
   - ***public*** : can be used by the object or inherited class
 - **POLYMORPHISM** : ability of object to take on many forms
    - ***method overloading***: same method but different parameters
-
+```bash
+def products(a,b):
+   print(a*b)
+def product (a,b,c):
+   print(a*b*c)
+```

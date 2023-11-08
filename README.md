@@ -27,7 +27,7 @@ stu.stuc()
 3.**reference**- used to refer to an object ex `stu` in `stu= Student("mragank",1)`
 - **full code**
 ```bash
-class students:
+class Students:
    def __init__(self,name,class_) : 
     self.name = name
     self.class_ = class_ #data members
@@ -39,7 +39,10 @@ stu.stuc()
 ```
 ## Pillars of OOPs
 
-**ENCAPSULATION** : binding of methods in a single unit
-```bash
+- **ENCAPSULATION** : binding of methods in a single unit
+- **ABSTRACTION** : a process of handling complexity by hiding unnecessary informatiion from the user
+  - ***private*** : accessibile only withim the class
+  - ***protected*** : accessible within class or child class
+  - ***public*** : can be used by the object or inherited class
+- **POLYMORPHISM** : 
 
-```

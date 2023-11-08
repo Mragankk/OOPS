@@ -44,5 +44,6 @@ stu.stuc()
   - ***private*** : accessibile only withim the class
   - ***protected*** : accessible within class or child class
   - ***public*** : can be used by the object or inherited class
-- **POLYMORPHISM** : 
+- **POLYMORPHISM** : ability of object to take on many forms
+   - ***method overloading***: same method but different parameters
 

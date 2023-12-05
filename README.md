@@ -52,3 +52,10 @@ def products(a,b):
 def product (a,b,c):
    print(a*b*c)
 ```
+  - ***operator overloading***: when operator used multiple times
+- **INHERITANCE** : one class inherits the attributes and methods of another class
+       - IN INHERTANCE, A PARENT CAN HOLD REFERENCE OF CHILD AND CAN ACCESS ONLY THOSE MEMBERS OF CHILD WHOSE SIGNATURE IS PROVIDED FROM PARENT TO 
+           CHILD.
+  - ***Method overridng***: virtual method of parent class rewritten in child class with same signature and different number of arguments
+  - ***method hiding***: a method of parent class in parent class, rewritten in child class with same signature and different number of arguments 
+ 
